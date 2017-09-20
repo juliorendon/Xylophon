@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Xylophon</string>
+    <string name="note1">C</string>
+    <string name="note2">D</string>
+    <string name="note3">E</string>
+    <string name="note4">F</string>
+    <string name="note5">G</string>
+    <string name="note6">A</string>
+    <string name="note7">B</string>
+    <string name="note8">C</string>
+</resources>

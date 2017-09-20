@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.jotace.xylophon.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/note8"
+        android:layout_width="295dp"
+        android:layout_height="70dp"
+        android:background="@color/colorAccent"
+        android:text="@string/note8"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note7" />
+
+    <Button
+        android:id="@+id/note7"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/note7"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note6" />
+
+    <Button
+        android:id="@+id/note6"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/note6"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note5" />
+
+    <Button
+        android:id="@+id/note5"
+        android:layout_width="325dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/note5"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note4" />
+
+    <Button
+        android:id="@+id/note4"
+        android:layout_width="335dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/note4"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note3" />
+
+    <Button
+        android:id="@+id/note3"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/note3"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note2" />
+
+    <Button
+        android:id="@+id/note2"
+        android:layout_width="355dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/note2"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note1" />
+
+    <Button
+        android:id="@+id/note1"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/note1"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/note2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
